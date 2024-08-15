@@ -34,4 +34,4 @@ RUN dpkg-reconfigure locales
 COPY . /app
 
 CMD ["python3", "bot.py"]
-EXPOSE 8080
+EXPOSE 8080/tcp
